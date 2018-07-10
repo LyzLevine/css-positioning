@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#bento {
+  align-items: center;
+  border: solid 5px firebrick;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20em;
+  margin: 0 auto;
+  width: 50em;
+}
+
+div {
+  height: 10em;
+  width: 25em;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.box1 {
+  background: lightsalmon;
+}
+
+.box2 {
+  background: salmon;
+}
+
+.box3 {
+  background: lightcoral;
+}
+
+.box4 {
+  background: indianred;
+}
